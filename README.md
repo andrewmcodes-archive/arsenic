@@ -1,8 +1,10 @@
-# Arsenic
+# [WIP] Arsenic
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/arsenic`. To experiment with that code, run `bin/console` for an interactive prompt.
+The motto of this codebase is currently:
 
-TODO: Delete this and the text above, and describe your gem
+> Make it work.
+
+Recommended: https://gemcheck.evilmartians.io
 
 ## Installation
 
@@ -15,6 +17,11 @@ gem install arsenic
 ```sh
 arsenic my_new_gem
 ```
+
+## Alternatives
+
+- **forked from** [palkan/new-gem-generator](https://github.com/palkan/new-gem-generator)
+- [gemsmith](https://github.com/bkuhlmann/gemsmith)
 
 ## Development
 
