@@ -1,0 +1,3 @@
+bump:
+  file: lib/arsenic/version.rb
+  message: "chore(release): :bookmark: Bump %{name} to %{version} [nodoc]"

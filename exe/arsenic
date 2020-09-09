@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+lib_path = File.expand_path("../lib", __dir__)
+$:.unshift(lib_path) unless $:.include?(lib_path)
+require "arsenic"
+
+Signal.trap("INT") do
+  warn("\n#{caller.join("\n")}: interrupted")
+  exit(1)
+end
+
+Arsenic.start

@@ -1,0 +1,9 @@
+fix: true
+parallel: true
+format: progress
+ignore:
+  - "node_modules/**/*"
+  - "tmp/**/*"
+  - "vendor/**/*"
+  - "spec/**/*":
+      - Standard/SemanticBlocks
